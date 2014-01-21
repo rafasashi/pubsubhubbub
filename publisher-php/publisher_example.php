@@ -11,7 +11,7 @@ $feeds = array('http://www.example.com/feed1.xml',
 $publisher = new Publisher($hub);
 
 //publish feeds
-$response = $publisher->publish($feed);
+$response = $publisher->publish($feeds);
 
 //print response
 var_dump($response);
